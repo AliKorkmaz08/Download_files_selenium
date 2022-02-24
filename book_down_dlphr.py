@@ -79,7 +79,7 @@ class BookDown:
         dest = new_dir + '/' + text
         try:
             shutil.move(source, dest)
-            print(f"{i} taşındı!")
+            print(f"{i} is moved!")
         except:
             time.sleep(1)
             self.moveBooks(new_dir, text)
